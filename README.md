@@ -6,7 +6,7 @@ Discord has a cache that they keep which contains many different links, this let
 
 Either clone the repo and or just copy and paste and load into repl
 change into package
-(in-package :cl-discord-analyser)
+(in-package :discord-cache-download)
 change the values of \*cache-dir\* and \*save-dir\* to what you want and then run
 (request-and-save-all)
 

@@ -5,7 +5,7 @@
 (in-package :discord-cache-download)
 
 (defparameter *cache-dir* "~/.config/discord/Cache/*")
-(defparameter *save-dir* "~/documents/lisp/programs/discord-cache-analyse/images/")
+(defparameter *save-dir* "./images/")
 
 (defparameter *regex* "http[s]?:\/\/(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+")
 
